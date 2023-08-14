@@ -1,7 +1,12 @@
-import React from "react";
+import React from 'react';
+import { CssBaseline } from '@mui/material';
+// import { Route, Switch } from 'react-router-dom';
 
 const App = () => {
-  <div>App</div>;
+  <div>
+    <CssBaseline />
+    <h1>Hello, world, </h1>
+  </div>;
 };
 
 export default App;
